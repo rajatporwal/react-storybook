@@ -6,6 +6,9 @@ In the project directory, you can run:
 
 ### `npx sb init`
 
+**main.js** is the configuration file for storybook itself\
+**preview.js** is the configuration file for stories we write
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
