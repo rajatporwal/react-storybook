@@ -1,3 +1,4 @@
+import { action, actions } from '@storybook/addon-actions'
 import React from 'react'
 import Center from '../Center/Center'
 import Button from './Button'
@@ -7,9 +8,10 @@ export default {
     title: 'Button',     // mandatory and should be unique
     component: Button,
     args: {             // pass default props
-        children: 'Default Button from Args' 
+        children: 'Default Button from Args',
+        onClick: action('Click handler')
     },
-    decorators: [story => <Center>{story()}</Center>]       // add Center component to each Button story
+    decorators: [story => <Center>{story()}</Center>],       // add Center component to each Button story
 }
 
 // childrens of Button hierarchy
@@ -36,5 +38,6 @@ SecondaryA.args = {
 export const LongPrimaryA = Template.bind({})
 LongPrimaryA.args = {
     ...PrimaryA.args,
-    children: 'Long Primary A'
+    children: 'Long Primary A',
+    ...actions('onClick', 'onMouseOver')
 }
