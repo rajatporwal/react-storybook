@@ -17,6 +17,5 @@
 // reportWebVitals();
 
 
-export * from './components/Button'
-export * from './components/Input'
-export * from './components/Subscription' 
+export * from './components/Button/Button'
+export * from './components/Input/Input'
