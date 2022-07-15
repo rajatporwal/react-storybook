@@ -31,9 +31,9 @@ jobs:
             yarn-deps-${{ hashFiles('yarn.lock') }}
       - name: Create Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: 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
           #👇 npm token, see https://storybook.js.org/tutorials/design-systems-for-developers/react/en/distribute/ to obtain it
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: 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
         run: |
           yarn install --frozen-lockfile
           yarn build
