@@ -1,7 +1,2 @@
-import Button from './components/Button/Button'
-import Input from './components/Input/Input'
-
-export {
-    Button,
-    Input
-}
+export { Button } from './components/Button/Button';
+export { Input } from './components/Input/Input';
