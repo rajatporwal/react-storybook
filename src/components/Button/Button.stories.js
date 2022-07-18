@@ -1,7 +1,7 @@
 import { action, actions } from '@storybook/addon-actions'
 import React from 'react'
-import Center from '../Center/Center'
-import Button from './Button'
+import Center from '../../commons/Center'
+import Button from './index'
 
 // default export is for parent/main folder
 export default {

@@ -3,7 +3,7 @@
 import React from "react"
 import { addDecorator } from "@storybook/react"
 import { withConsole } from "@storybook/addon-console"
-import Center from "../src/components/Center/Center"
+import Center from "../src/commons/Center"
 
 // add Center component to every story
 addDecorator(story => <Center>{story()}</Center>)
