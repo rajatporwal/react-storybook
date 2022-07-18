@@ -1,6 +1,6 @@
 {
   "name": "@rajatporwal/react-storybook",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": false,
   "dependencies": {
     "react": "^18.2.0",
